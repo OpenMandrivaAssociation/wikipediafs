@@ -3,11 +3,12 @@ Summary: View and edit Wikipedia articles as if they were real files
 Name:	wikipediafs
 Version: 0.3
 Release: %mkrel 1
-License: GPL
+License: GPLv2+
 Group:	System/Base
 Source: http://downloads.sourceforge.net/wikipediafs/%name-%version.tar.bz2
 URL:	http://wikipediafs.sourceforge.net/
 Buildroot: %_tmppath/%name-%version-root
+%py_requires -d
 BuildArchitectures: noarch
 BuildRequires: python => 2.4
 BuildRequires: fuse => 2.6.3
