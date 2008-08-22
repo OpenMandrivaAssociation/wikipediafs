@@ -1,4 +1,3 @@
-%define LANG en
 Summary: View and edit Wikipedia articles as if they were real files
 Name:	wikipediafs
 Version: 0.3
