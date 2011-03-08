@@ -1,7 +1,7 @@
 Summary:	View and edit Wikipedia articles as if they were real files
 Name:		wikipediafs
-Version:	0.3
-Release:	%mkrel 5
+Version:	0.4
+Release:	%mkrel 1
 License:	GPLv2+
 Group:		System/Base
 Source:		http://downloads.sourceforge.net/wikipediafs/%name-%version.tar.bz2
