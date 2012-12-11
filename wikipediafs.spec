@@ -53,3 +53,36 @@ rm -rf $RPM_BUILD_ROOT
 %python_sitelib/wikipediafs*
 %_mandir/man1/mount.wikipediafs.*
 
+
+
+%changelog
+* Tue Mar 08 2011 Sandro Cazzaniga <kharec@mandriva.org> 0.4-1mdv2011.0
++ Revision: 642893
+- new version
+
+* Sat Oct 30 2010 Michael Scherer <misc@mandriva.org> 0.3-5mdv2011.0
++ Revision: 590585
+- rebuild for python 2.7
+
+* Mon Feb 22 2010 Sandro Cazzaniga <kharec@mandriva.org> 0.3-4mdv2010.1
++ Revision: 509737
+- fix mixed space and tabs
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 0.3-3mdv2010.0
++ Revision: 445781
+- rebuild
+
+* Tue Jan 06 2009 Funda Wang <fwang@mandriva.org> 0.3-2mdv2009.1
++ Revision: 326119
+- rebuild
+
+* Thu Aug 21 2008 Funda Wang <fwang@mandriva.org> 0.3-1mdv2009.0
++ Revision: 274676
+- fix BR
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - import wikipediafs
+
+
+* Thu Aug 21 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.3-1mdv2009.0
+- initial release
