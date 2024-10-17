@@ -5,7 +5,7 @@ Release:	2
 License:	GPLv2+
 Group:		System/Base
 Source:		http://downloads.sourceforge.net/wikipediafs/%name-%version.tar.bz2
-URL:		http://wikipediafs.sourceforge.net/
+URL:		https://wikipediafs.sourceforge.net/
 Buildroot:	%_tmppath/%name-%version-root
 %py_requires -d
 BuildArch:	noarch
